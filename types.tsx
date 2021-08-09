@@ -9,14 +9,29 @@ export type RootStackParamList = {
 };
 
 export type BottomTabParamList = {
-  TabOne: undefined;
-  TabTwo: undefined;
+  Home: undefined;
+  MyNetwork: undefined;
+  Post: undefined;
+  Notifications: undefined;
+  Jobs: undefined;
 };
 
-export type TabOneParamList = {
-  TabOneScreen: undefined;
+export type HomeParamList = {
+  HomeScreen: undefined;
 };
 
-export type TabTwoParamList = {
-  TabTwoScreen: undefined;
+export type MyNetworkParamList = {
+  MyNetworkScreen: undefined;
+};
+
+export type PostParamList = {
+  PostScreen: undefined;
+};
+
+export type NotificationsParamList = {
+  NotificationsScreen: undefined;
+};
+
+export type JobsParamList = {
+  JobsScreen: undefined;
 };
