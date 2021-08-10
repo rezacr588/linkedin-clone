@@ -9,26 +9,26 @@ export const Tabs: Tab[] = [
   {
     name: "Home",
     component: HomeNavigator,
-    iconName: "ios-code"
+    iconName: "md-home-sharp"
   },
   {
     name: "MyNetwork",
     component: MyNetworkNavigator,
-    iconName: "ios-code"
+    iconName: "people"
   },
   {
     name: "Post",
     component: PostNavigator,
-    iconName: "ios-code"
+    iconName: "add-circle"
   },
   {
     name: "Notifications",
     component: NotificationsNavigator,
-    iconName: "ios-code"
+    iconName: "notifications"
   },
   {
     name: "Jobs",
     component: JobsNavigator,
-    iconName: "ios-code"
+    iconName: "md-briefcase"
   },
 ]
