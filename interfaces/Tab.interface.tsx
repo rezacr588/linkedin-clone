@@ -1,9 +1,9 @@
 import { BottomTabParamList } from "../types";
 import { Ionicons } from '@expo/vector-icons';
-import { ComponentProps } from "react"
+import { ComponentProps, ComponentType } from "react"
 
 export default interface Tab {
   name: keyof BottomTabParamList,
-  component: any,
+  component: ComponentType,
   iconName: ComponentProps<typeof Ionicons>['name']
 }
