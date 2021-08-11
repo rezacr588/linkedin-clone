@@ -9,7 +9,11 @@ const PostStack = createStackNavigator<PostParamList>();
 
 export default function PostNavigator() {
   return (
-    <PostStack.Navigator>
+    <PostStack.Navigator
+      screenOptions={{
+        headerShown: false
+      }}
+    >
       <PostStack.Screen
         name="PostScreen"
         component={PostScreen}

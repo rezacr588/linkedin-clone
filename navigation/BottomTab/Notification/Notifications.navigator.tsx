@@ -9,7 +9,11 @@ const NotificationsStack = createStackNavigator<NotificationsParamList>();
 
 export default function NotificationsNavigator() {
   return (
-    <NotificationsStack.Navigator>
+    <NotificationsStack.Navigator
+      screenOptions={{
+        headerShown: false
+      }}
+    >
       <NotificationsStack.Screen
         name="NotificationsScreen"
         component={NotificationsScreen}

@@ -9,7 +9,11 @@ const MyNetworkStack = createStackNavigator<MyNetworkParamList>();
 
 export default function MyNetworkNavigator() {
   return (
-    <MyNetworkStack.Navigator>
+    <MyNetworkStack.Navigator
+      screenOptions={{
+        headerShown: false
+      }}
+    >
       <MyNetworkStack.Screen
         name="MyNetworkScreen"
         component={MyNetworkScreen}

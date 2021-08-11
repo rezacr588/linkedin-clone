@@ -39,7 +39,7 @@ export default function BottomTabNavigator() {
           justifyContent: "center",
           alignItems: 'center',
           padding: 0
-        }
+        },
       }}
     />
 

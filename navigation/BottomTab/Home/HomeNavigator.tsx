@@ -9,7 +9,11 @@ const HomeStack = createStackNavigator<HomeParamList>();
 
 export default function HomeNavigator() {
   return (
-    <HomeStack.Navigator>
+    <HomeStack.Navigator
+      screenOptions={{
+        headerShown: false
+      }}
+    >
       <HomeStack.Screen
         name="HomeScreen"
         component={HomeScreen}

@@ -9,7 +9,11 @@ const JobsStack = createStackNavigator<JobsParamList>();
 
 export default function JobsNavigator() {
   return (
-    <JobsStack.Navigator>
+    <JobsStack.Navigator
+      screenOptions={{
+        headerShown: false
+      }}
+    >
       <JobsStack.Screen
         name="JobsScreen"
         component={JobsScreen}
